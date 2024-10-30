@@ -1,0 +1,41 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* A playful font */
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffcc00; /* Bright yellow for header */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #ff6600; /* Orange for headings */
+}
+
+button {
+  background-color: #eae8e7;
+  color: rgb(168, 16, 16);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e65c00; /* Darker orange on hover */
+}
+
+.pet-profile {
+  background-color: #fffacd; /* Light yellow for profile */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
